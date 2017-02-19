@@ -2,6 +2,10 @@
 
 ## Stundenplan
 
-| # | Datum | Lektion | Raum | Dozent | Unterlagen |
-|---|-------|---------|---------|------|--------|------------|
-| 1 | 20.02.|Einführung|1.021|Christian Lüthold||[Lektion 1 - Einführung & Übersicht.pptx](https://github.com/Zuehlke/fhnw-mobile-workshop/blob/master/Lektion%201%20-%20Einf%C3%BChrung%20%26%20%C3%9Cbersicht.pptx)|
+| # | Datum | Lektion | Raum | Dozent |
+|---|-------|---------|---------|------|--------|
+| 1 | 20.02.|Einführung & Übersicht|1.021|Christian Lüthold|
+| 2 | 27.02.|iOS|1.021|Oliver Gepp|
+| 3 | 06.03.|iOS|1.021||
+| 4 | 13.03.|iOS|1.021||
+| 5 | 20.03.|iOS|1.021||
