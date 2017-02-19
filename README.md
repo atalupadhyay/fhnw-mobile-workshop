@@ -20,4 +20,4 @@
 |12 | 22.05.|Ionic / Android|1.333 / 1.021||
 |13 | 29.05.|Ionic / Android|1.333 / 1.021||
 |14 | 05.06.|**Pfingstmontag**|||
-|15 | 12.06.|**Präsentationen**|||
+|15 | 12.06.|**Präsentationen**|1.021||
