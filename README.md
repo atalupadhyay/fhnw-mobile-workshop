@@ -15,9 +15,9 @@
 |   | 17.04.|**Osterferien**|||
 | 9 | 24.04.|Android / Ionic|1.333 / 1.021||
 |   | 01.05.|**Tag der Arbeit**|||
-|10 | 08.05.|Ionic / Android|1.333 / 1.021||
-|11 | 15.05.|Ionic / Android|1.333 / 1.021||
-|12 | 22.05.|Ionic / Android|1.333 / 1.021||
-|13 | 29.05.|Ionic / Android|1.333 / 1.021||
-|14 | 05.06.|**Pfingstmontag**|||
-|15 | 12.06.|**Präsentationen**|1.021||
+|   | 08.05.|**Projektwoche**|||
+|10 | 15.05.|Ionic / Android|1.333 / 1.021||
+|11 | 22.05.|Ionic / Android|1.333 / 1.021||
+|12 | 29.05.|Ionic / Android|1.333 / 1.021||
+|   | 05.06.|**Pfingstmontag**|||
+|13 | 12.06.|**Präsentationen**|1.021|Alle|
