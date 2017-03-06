@@ -21,3 +21,7 @@
 |12 | 29.05.|Ionic / Android|1.333 / 1.021||
 |   | 05.06.|**Pfingstmontag**|||
 |13 | 12.06.|**Präsentationen**|1.021|Alle|
+
+
+## Umfrage zur App-Idee
+https://goo.gl/forms/EPslWsFjVepBW05Y2
