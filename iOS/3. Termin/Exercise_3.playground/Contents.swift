@@ -67,8 +67,10 @@ D) Nach Erhalt des Standortes wird die Methode `performServerRequest` aufgerufen
   
 Tipp: Wir können dieses Success-Block folgendermassen erzeugen und zuweisen:
 
-    weatherRequest?.successBlock = { weatherData in
+    weatherRequest(successHandler: { (weatherData: WeatherData) in
       // etwas mit weatherData machen
+    }) {
+        print("error loading weather")
     }
 
 Nun wollen wir die Daten aus `weatherData` lesen und die verschiedene Labels damit updaten (u.a. Standort, Wetterlage, Temperatur).
