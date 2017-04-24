@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chga.ch.doit.ui.overview.ScrollChildSwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/refresh_layout"
+
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tasks_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/list_item_background"
+        />
+
+</chga.ch.doit.ui.overview.ScrollChildSwipeRefreshLayout>

@@ -1,0 +1,3 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="TAG_TASK_LIST_IS_COMPLETED" type="id"/>
+</resources>

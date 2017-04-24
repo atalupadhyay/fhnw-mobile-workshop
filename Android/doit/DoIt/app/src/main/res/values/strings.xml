@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DoIt</string>
+
+    <!-- Overview -->
+    <string name="no_tasks_all">You have no TO-DOs!</string>
+    <string name="no_tasks_active">You have no active TO-DOs!</string>
+    <string name="no_tasks_completed">You have no completed TO-DOs!</string>
+    <string name="no_tasks_add">Add a TO-DO item +</string>
+    <string name="label_all">All TO-DOs</string>
+    <string name="label_active">Active TO-DOs</string>
+    <string name="label_completed">Completed TO-DOs</string>
+    <string name="task_marked_complete">Task marked complete</string>
+    <string name="task_marked_active">Task marked active</string>
+    <string name="loading_tasks_error">Error while loading tasks</string>
+    <string name="completed_tasks_cleared">Completed tasks cleared</string>
+    <string name="successfully_saved_task_message">TO-DO saved</string>
+    <string name="overview_item_to_go">to go</string>
+    <string name="overview_item_no_group">No Category</string>
+    <string name="task_list_completed_label">completed</string>
+    <string name="task_list_due_to_today_label">due today</string>
+    <string name="task_list_date_label_today">today</string>
+    <string name="task_list_date_label_overdue">overdue</string>
+    <string name="task_list_date_label_future">in</string>
+    <string name="task_list_date_hours">hours</string>
+    <string name="task_detail_update_task_title">Update task</string>
+    <string name="task_detail_create_task_title">Create new Task</string>
+    <string name="task_detail_title_hint">Enter title a title</string>
+    <string name="task_detail_description_hint">Enter title a description</string>
+    <string name="task_detail_group_hint">Enter or choose a group</string>
+    <string name="task_detail_date_hint">Choose a date</string>
+    <string name="task_detail_date_picker_title">Select date</string>
+    <string name="task_overview_title">Your TODOs</string>
+</resources>

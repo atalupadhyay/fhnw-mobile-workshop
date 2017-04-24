@@ -1,0 +1,53 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+
+        // Better IDE support for annotations (so Android Studio interacts better with Dagger)
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // Sdk and tools
+    minSdkVersion = 23
+    targetSdkVersion = 25
+    compileSdkVersion = 25
+    buildToolsVersion = '25.0.2'
+
+    // App dependencies
+
+    //Google
+    supportLibraryVersion = '25.3.0'
+
+    // Third party
+    guavaVersion = '18.0'
+    rxjavaVersion = '1.1.8'
+    rxandroidVersion = '1.2.1'
+    playServicesVersion = '10.2.1'
+    daggerVersion = '2.7'
+    junitVersion = '4.12'
+    sqlbriteVersion = '0.7.0'
+    butterknife = '6.1.0' // We have to reference a older version of Butterknife because of conflicts with thee Dagger annotation processor
+    mvpgraph = 'v3.0.2'
+}
+
+
