@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Title"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingRight="50dp"
+        />
+
+    <TextView
+        android:id="@+id/taskDescription"
+        android:layout_below="@id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Description"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingRight="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taskDescription"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text="@string/task_list_date_label_today"
+        android:textColor="@color/task_list_completed"
+        />
+
+    <TextView
+        android:id="@+id/dateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dateLabel"
+        android:layout_alignBottom="@id/dateLabel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingLeft="5dp"
+        android:text="at 2:45 pm"
+
+        />
+
+    <ImageView
+        android:id="@+id/isCompleted"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_checkbox_marked_circle_white_48dp"
+        android:tint="@color/uncompletedColor"
+        />
+
+</RelativeLayout>
