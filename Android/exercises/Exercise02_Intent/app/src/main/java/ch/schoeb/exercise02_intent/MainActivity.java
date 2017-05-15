@@ -1,9 +1,11 @@
 package ch.schoeb.exercise02_intent;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -12,10 +14,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // TODO: Find the button and add a click listener
-        // TODO: In the OnClickListener create a new Intent which targets your DetailActivity
-        // TODO: Add custom data (Extras) to your intent
-        // TODO: Start DetailActivity and show passed data in a textView on the DetailActivity
+        Button button = (Button) findViewById(R.id.buttonNavigate);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,TargetActivity.class);
+                intent.putExtra(TargetActivity.EXTRA_KEY,"Test");
+                startActivity(intent);
+            }
+        });
     }
 }
