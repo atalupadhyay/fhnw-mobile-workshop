@@ -17,27 +17,32 @@
         android:background="#0F0"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_toRightOf="@id/redElement"/>
+       android:layout_centerInParent="true"/>
 
     <View
         android:id="@+id/blueElement"
         android:background="#00F"
-        android:layout_width="45dp"
+        android:layout_width="180dp"
         android:layout_height="45dp"
-        android:layout_toRightOf="@id/greenElement"/>
+       android:layout_alignParentRight="true"/>
 
-    <View
-        android:id="@+id/blackElement"
-        android:background="#000"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_toRightOf="@id/blueElement"/>
+
 
     <View
         android:id="@+id/yellowElement"
         android:background="#FF0"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_toRightOf="@id/blackElement"/>
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <View
+        android:id="@+id/blackElement"
+        android:background="#000"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@id/yellowElement"
+        android:layout_toLeftOf="@id/yellowElement"
+        />
 
 </RelativeLayout>
