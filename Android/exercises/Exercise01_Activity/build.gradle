@@ -17,3 +17,7 @@ allprojects {
         jcenter()
     }
 }
+
+ext{
+    APP_COMBAT_VERSION = '23.2.1'
+}
