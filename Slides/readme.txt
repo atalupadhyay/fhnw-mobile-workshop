@@ -1,3 +1,4 @@
-All slides of the workshop will added to this folder
+All slides of the workshop will be added to this folder
 
 19.01.18: MobileApps01.pdf
+26.02.18: MobileApps02.pdf
