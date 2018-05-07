@@ -92,9 +92,9 @@ print("The 101st prime number is \(index)")
 
 //alternative solution
 var numbersFound = 0
-var currentIndex = 0
+var currentIndex = 1
 while(numbersFound < 101){
-    currentIndex+=1
+    currentIndex+=2
     if isPrime(number: currentIndex){
         numbersFound+=1
     }
