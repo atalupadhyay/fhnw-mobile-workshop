@@ -71,6 +71,19 @@ class Chiwawa {
 Chiwawa.stayInHandbag()
 Chiwawa.runAway()
 
+class Woofie: Chiwawa{
+    
+    override class func stayInHandbag() -> String {
+        return "woooooof"
+    }
+    
+    /* not allowed to override static methods
+    override static func runAway() -> String{
+        return "Oh my god"
+    }
+    */
+    
+}
 
 //: ## willSet/didSet
 
@@ -84,9 +97,9 @@ class Bulldog: Dog {
 }
 
 let b = Bulldog(name: "Toby")
+b.isHappy
 b.name = "Rusty"
-
-
+b.isHappy
 
 
 //: ## Berechnete Properties

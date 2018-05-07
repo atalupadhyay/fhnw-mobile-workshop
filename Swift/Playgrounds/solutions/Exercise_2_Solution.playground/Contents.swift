@@ -86,7 +86,7 @@ Erweitere Array und schreibe eine Methode `sum`, die die Summe aller Elemente im
 
 */
 
-extension Array where Element: BinaryInteger {
+extension Array where Element: Numeric {
     
     func sum() -> Element {
         return self.reduce(0) { (result, item) in result + item }
@@ -105,4 +105,8 @@ extension Array where Element: BinaryInteger {
 let array = [1,2,3,4]
 array.sum()
 array.sumWithFor()
+
+//alternative without extension
+array.reduce(0, +) //short syntax
+array.reduce(0){(a,b) in a + b} // long syntax
 

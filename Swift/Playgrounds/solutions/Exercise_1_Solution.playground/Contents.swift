@@ -20,6 +20,7 @@ enum SatisfactionLevel {
 }
 
 func tipComputer(amount: Double, satisfaction: SatisfactionLevel) -> Double {
+    
     func factorForSatisfaction(satisfaction: SatisfactionLevel) -> Double {
         switch(satisfaction) {
         case .serviceWasRude:
@@ -87,6 +88,18 @@ while true {
     }
 }
 print("The 101st prime number is \(index)")
+
+
+//alternative solution
+var numbersFound = 0
+var currentIndex = 0
+while(numbersFound < 101){
+    currentIndex+=1
+    if isPrime(number: currentIndex){
+        numbersFound+=1
+    }
+}
+print("The 101st prime number is \(currentIndex)")
 
 /*:
 

@@ -57,7 +57,16 @@ isPrime(number: 101)
 //: (Optional)
 //: ## c. Finde die 101. Primzahl. Dabei die vorgegebene Funktion `isPrime` verwenden.
 
-// TODO
+var numberFound = 0
+var index = 0
+while(numberFound < 101){
+    index+=1
+    if isPrime(number: index){
+        numberFound+=1
+    }
+}
+print("The 101st prime number is \(index)")
+
 
 
 /*: 
