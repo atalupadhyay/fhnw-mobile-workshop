@@ -14,19 +14,19 @@ Funktion `tipComputer` vervollstaendigen, damit sie fuer einen gegebenen Betrag 
 
 
 enum SatisfactionLevel {
-    case ServiceWasRude    // 10% tip
-    case EverythingWasFine // 18% tip
-    case SuperHappy        // 20% tip
+    case serviceWasRude    // 10% tip
+    case everythingWasFine // 18% tip
+    case superHappy        // 20% tip
 }
 
 func tipComputer(amount: Double, satisfaction: SatisfactionLevel) -> Double {
     func factorForSatisfaction(satisfaction: SatisfactionLevel) -> Double {
         switch(satisfaction) {
-        case .ServiceWasRude:
+        case .serviceWasRude:
             return 0.10
-        case .EverythingWasFine:
+        case .everythingWasFine:
             return 0.18
-        case .SuperHappy:
+        case .superHappy:
             return 0.20
         }
     }
@@ -35,8 +35,8 @@ func tipComputer(amount: Double, satisfaction: SatisfactionLevel) -> Double {
     return amount * factor
 }
 
-tipComputer(amount: 65.50, satisfaction: SatisfactionLevel.ServiceWasRude)
-tipComputer(amount: 77.20, satisfaction: SatisfactionLevel.SuperHappy)
+tipComputer(amount: 65.50, satisfaction: .serviceWasRude)
+tipComputer(amount: 77.20, satisfaction: .superHappy)
 
 
 /*:

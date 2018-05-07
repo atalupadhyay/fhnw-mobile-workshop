@@ -6,4 +6,4 @@ All slides of the workshop will be added to this folder
 12.03.18: MobileApps04.pdf
 26.03.18: MobileApps05.pdf
 16.04.18: MobileApps06.pdf
-30.05.18: MobileApps07.pdf
+30.04.18: MobileApps07.pdf
